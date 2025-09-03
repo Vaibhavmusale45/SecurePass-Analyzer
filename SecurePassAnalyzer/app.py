@@ -78,6 +78,13 @@ def main():
     # Title and description
     st.title("🔐 SecurePass Analyzer")
     st.markdown("### Your Complete Password Security Suite")
+    st.markdown(
+        "<div style='text-align: center; color: #4CAF50; font-size: 18px; margin-bottom: 20px;'>"
+        "💻 <strong>Developed by Vaibhav Musale</strong> | "
+        "🎓 Cybersecurity Enthusiast"
+        "</div>", 
+        unsafe_allow_html=True
+    )
     st.markdown("---")
     
     # Sidebar
@@ -99,6 +106,17 @@ def main():
             "• Generate secure passwords\n"
             "• Learn security best practices"
         )
+        
+        # Creator credits
+        st.markdown("---")
+        st.markdown(
+            "<div style='text-align: center; color: #666; font-size: 14px; padding: 10px;'>"
+            "💻 <strong>Created by Vaibhav</strong><br>"
+            "🔐 Cybersecurity & Python Developer<br>"
+            "<a href='mailto:musalevaibhaw@gmail.com' style='color: #4CAF50;'>musalevaibhaw@gmail.com</a>"
+            "</div>", 
+            unsafe_allow_html=True
+        )
     
     # Main content area
     if page == "🔍 Password Analyzer":
@@ -111,6 +129,21 @@ def main():
         security_dashboard_page()
     elif page == "📚 Security Tips":
         security_tips_page()
+    
+    # Footer with creator information
+    st.markdown("---")
+    st.markdown(
+        "<div style='text-align: center; color: #888; font-size: 16px; padding: 20px; background-color: #f8f9fa; border-radius: 10px; margin-top: 50px;'>"
+        "🔐 <strong>SecurePass Analyzer</strong> | "
+        "💻 Created with ❤️ by <strong>Vaibhav Musale</strong><br>"
+        "🎓 Cybersecurity Enthusiast | 🐍 Python Developer | 🛡️ Security Researcher<br>"
+        "<a href='mailto:musalevaibhaw@gmail.com' style='color: #4CAF50; text-decoration: none;'>📧 musalevaibhaw@gmail.com</a> | "
+        "<a href='#' style='color: #4CAF50; text-decoration: none;'>🔗 LinkedIn</a> | "
+        "<a href='#' style='color: #4CAF50; text-decoration: none;'>💼 Portfolio</a><br><br>"
+        "<em>✨ Passionate about making cybersecurity accessible to everyone ✨</em>"
+        "</div>",
+        unsafe_allow_html=True
+    )
 
 def password_analyzer_page():
     st.header("🔍 Password Strength Analyzer")
