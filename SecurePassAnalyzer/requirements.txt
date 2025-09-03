@@ -1,0 +1,8 @@
+requests
+cryptography
+streamlit
+pandas
+plotly
+zxcvbn
+python-dotenv
+
