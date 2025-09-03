@@ -128,8 +128,8 @@ def main():
     st.markdown(
         "<div style='text-align: center; color: #888; font-size: 16px; padding: 20px; background-color: #f8f9fa; border-radius: 10px; margin-top: 50px;'>"
         "🔐 <strong>SecurePass Analyzer</strong> | "
-        "💻 Created with ❤️ by <strong>Vaibhav Musale</strong><br>"
-        "🎓 Cybersecurity Enthusiast | 🐍 Python Developer | 🛡️ Security Researcher<br>"
+        "💻 Created with ❤️ by <strong>hav Musale</strong><br>"
+        "🎓 Cybersecurity Enthusiast  | 🛡️ Security Analyst<br>"
         "<a href='mailto:musalevaibhaw@gmail.com' style='color: #4CAF50; text-decoration: none;'>📧 musalevaibhaw@gmail.com</a> | "
         "<a href='#' style='color: #4CAF50; text-decoration: none;'>🔗 LinkedIn</a> | "
         "<a href='#' style='color: #4CAF50; text-decoration: none;'>💼 Portfolio</a><br><br>"
