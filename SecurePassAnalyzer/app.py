@@ -77,12 +77,7 @@ if 'analyzer' not in st.session_state:
 def main():
     # Title and description
     st.title("🔐 SecurePass Analyzer")
-    st.markdown("### Your Complete Password Security Suite")
-    st.markdown(
-        "<div style='text-align: center; color: #4CAF50; font-size: 18px; margin-bottom: 20px;'>"
-        "💻 <strong>Developed by Vaibhav Musale</strong> | "
-        "🎓 Cybersecurity Enthusiast"
-        "</div>", 
+    st.markdown("### check your security")
         unsafe_allow_html=True
     )
     st.markdown("---")
