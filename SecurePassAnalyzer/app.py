@@ -78,8 +78,6 @@ def main():
     # Title and description
     st.title("🔐 SecurePass Analyzer")
     st.markdown("### check your security")
-        unsafe_allow_html=True
-    )
     st.markdown("---")
     
     # Sidebar
